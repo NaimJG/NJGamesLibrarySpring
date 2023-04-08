@@ -57,7 +57,6 @@ public class Videojuego {
     @JoinColumn(name = "empresas_id_empresas")
     private Empresa empresa;
 
-
     @ManyToMany(
             fetch = FetchType.LAZY,
             mappedBy = "videojuegoList"
@@ -65,5 +64,7 @@ public class Videojuego {
     @JsonIgnore
     private List<Usuario> usuarios;
 
+    @Column(name = "video")
+    private String video;
 
 }

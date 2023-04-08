@@ -92,8 +92,6 @@ class UsuarioServiceImplTest {
                 .hasMessageContaining("Usuario no encontrado con el id: " + idUsuario);
     }
 
-
-
     // Caso en que encuentra el usuario ya existente en la BD cuando se usa método register
     @Test
     @DisplayName("Usuario Existe")

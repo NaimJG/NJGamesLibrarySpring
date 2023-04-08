@@ -16,6 +16,7 @@ public class VideojuegoDTO {
     private String nombre;
     private LocalDate anio_lanzamiento;
     private String imagen;
+    private String video;
     private String descripcion;
     private String genero;
     private String empresa;

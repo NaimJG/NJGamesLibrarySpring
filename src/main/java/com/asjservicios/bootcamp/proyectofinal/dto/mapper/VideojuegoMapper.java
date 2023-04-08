@@ -11,6 +11,7 @@ public class VideojuegoMapper {
                 entity.getNombre(),
                 entity.getAnio_lanzamiento(),
                 entity.getImagen(),
+                entity.getVideo(),
                 entity.getDescripcion(),
                 entity.getGenero().getGenero(),
                 entity.getEmpresa().getEmpresa(),

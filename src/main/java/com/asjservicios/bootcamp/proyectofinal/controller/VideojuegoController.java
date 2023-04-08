@@ -39,6 +39,7 @@ public class VideojuegoController {
                 videojuegoEncontrado.getNombre(),
                 videojuegoEncontrado.getAnio_lanzamiento(),
                 videojuegoEncontrado.getImagen(),
+                videojuegoEncontrado.getVideo(),
                 videojuegoEncontrado.getDescripcion(),
                 videojuegoEncontrado.getGenero().getGenero(),
                 videojuegoEncontrado.getEmpresa().getEmpresa(),
